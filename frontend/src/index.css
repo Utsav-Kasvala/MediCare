@@ -20,7 +20,7 @@
     }
 
     .heading{
-        @apply text-[44px ] leading-[54px] font-[700] text-headingColor;
+        @apply text-[44px] leading-[54px] font-[700] text-headingColor;
     }
 
     .text_para{
@@ -29,6 +29,10 @@
 
     .header{
         @apply bg-[url(./assets/images/mask.png)] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px];
+    }
+
+    .hero_section{
+        @apply  bg-[url(./assets/images/hero-bg.png)] bg-no-repeat bg-center bg-cover;
     }
 }
 
