@@ -19,7 +19,7 @@ body {
   left: 0;
   z-index: 99999;
   box-shadow: 3px 3px -8px 3px #ddd;
-  background: white;
+  background: red;
 }
 
 @media only screen and (max-width:768px) {
@@ -40,7 +40,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    background: #fff;
+    background: lightgoldenrodyellow;
     z-index: 200;
     flex-direction: column;
     justify-content: center;
