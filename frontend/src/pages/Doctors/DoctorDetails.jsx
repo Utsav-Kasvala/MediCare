@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import doctorImg from '../../assets/images/doctor-img02.png'
+import doctorImg from '../../assets/images/doc.png'
 import starIcon from '../../assets/images/Star.png'
 import DoctorAbout from './DoctorAbout';
 import Feedback from './Feedback';
+import SlidePanel from './SlidePanel';
 const DoctorDetails = () => {
   const [tab,setTab]=useState( 'about');
   return (
@@ -43,7 +44,9 @@ const DoctorDetails = () => {
               </div>
             </div>
  
-            <div></div>
+            <div>
+              <SlidePanel/>
+            </div>
  
 
         </div>
